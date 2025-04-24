@@ -1,0 +1,462 @@
+[
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Прослухайте музичний твір і виберіть правильний варіант:?<br><audio controls><source src='img/music/Шопен 24 прелюдії прел4 мі мінор.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><br/>",
+    "answers": [
+      {
+        "text": "Л. Бетховен. Соната № 14 до # мінор “Місячна”. І частина",
+        "correct": false
+      },
+      {
+        "text": "Ф. Шопен. Цикл “24 прелюдії”. Прелюдія №4 мі мінор",
+        "correct": true
+      },
+      {
+        "text": "Н. Паганіні. Каприс № 24 для скрипки соло",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Виберіть композитора, якого вважають засновником української класичної музики:",
+    "answers": [
+      {
+        "text": "Микола Лисенко",
+        "correct": true
+      },
+      {
+        "text": "Микола Леонтович",
+        "correct": false
+      },
+      {
+        "text": "Максим Березовський",
+        "correct": false
+      },
+      {
+        "text": "Семен Гулак-Артемовський",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Йозеф Гайдн, Вольфганг Амадей Моцарт, Людвіг ван Бетховен - це:",
+    "answers": [
+      {
+        "text": "автори державного гімну",
+        "correct": false
+      },
+      {
+        "text": "композитори-романтики",
+        "correct": false
+      },
+      {
+        "text": "композитори-поліфоністи",
+        "correct": false
+      },
+      {
+        "text": "віденські класики",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Виберіть композитора, якого назвали `батьком симфонії`:",
+    "answers": [
+      {
+        "text": "Йоганн Себастьян Бах",
+        "correct": false
+      },
+      {
+        "text": "Антоніо Вівальді",
+        "correct": false
+      },
+      {
+        "text": "Йозеф Гайдн",
+        "correct": false
+      },
+      {
+        "text": "Георг Фрідріх Гендель",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Виберіть композитора, якого назвали `чудо-дитиною`:",
+    "answers": [
+      {
+        "text": "Франц Шуберт",
+        "correct": false
+      },
+      {
+        "text": "Вольфганг Амадей Моцарт",
+        "correct": true
+      },
+      {
+        "text": "Ніколо Паганіні",
+        "correct": false
+      },
+      {
+        "text": "Фредерік Шопен",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Виберіть композитора, який народився у місті Зальцбург:",
+    "answers": [
+      {
+        "text": "Йозеф Гайдн",
+        "correct": false
+      },
+      {
+        "text": "Людвіг ван Бетховен",
+        "correct": false
+      },
+      {
+        "text": "Вольфганг Амадей Моцарт",
+        "correct": true
+      },
+      {
+        "text": "Фредерік Шопен",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "name": 1,
+    "question": "Виберіть опери, які написав Микола Лисенко:",
+    "answers": [
+      {
+        "text": "Тарас Бульба",
+        "correct": true
+      },
+      {
+        "text": "Весілля Фігаро",
+        "correct": false
+      },
+      {
+        "text": "Наталка-Полтавка",
+        "correct": true
+      },
+      {
+        "text": "Запорожець за Дунаєм",
+        "correct": false
+      },
+      {
+        "text": "Коза-Дереза",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Виберіть композитора - автора Меси сі мінор, Добре темперованого клавіру та інвенцій:",
+    "answers": [
+      {
+        "text": "Йоганн Себастьян Бах",
+        "correct": true
+      },
+      {
+        "text": "Йозеф Гайдн",
+        "correct": false
+      },
+      {
+        "text": "Вольфганг Амадей Моцарт",
+        "correct": false
+      },
+      {
+        "text": "Людвіг ван Бетховен",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Виберіть композитора - автора Карпатського концерту та Гуцульського триптиху для симфонічного оркестру:",
+    "answers": [
+      {
+        "text": "Борис Лятошинський",
+        "correct": false
+      },
+      {
+        "text": "Леся Дичко",
+        "correct": false
+      },
+      {
+        "text": "Левко Ревуцький",
+        "correct": false
+      },
+      {
+        "text": "Мирослав Скорик",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "name": 1,
+    "question": "До якого жанру належить `Щедрик` Миколи Леонтовича:",
+    "answers": [
+      {
+        "text": "Пісня",
+        "correct": false
+      },
+      {
+        "text": "Романс",
+        "correct": false
+      },
+      {
+        "text": "Хорова обробка",
+        "correct": true
+      },
+      {
+        "text": "Кантата",
+        "correct": false
+      },
+      {
+        "text": "Народна пісня",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Хто з композиторів створив `Місячну` сонату:",
+    "answers": [
+      {
+        "text": "Фрідерік Шопен",
+        "correct": false
+      },
+      {
+        "text": "Йозеф Гайдн",
+        "correct": false
+      },
+      {
+        "text": "Людвіг ван Бетховен",
+        "correct": true
+      },
+      {
+        "text": "Ференц Ліст",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "name": 1,
+    "question": "Виберіть героїв опери `Весілля Фігаро` Вольфганга Амадея Моцарта:",
+    "answers": [
+      {
+        "text": "Керубіно",
+        "correct": true
+      },
+      {
+        "text": "Фігаро",
+        "correct": true
+      },
+      {
+        "text": "Оксана",
+        "correct": false
+      },
+      {
+        "text": "Барбаріна",
+        "correct": true
+      },
+      {
+        "text": "Сюзанна",
+        "correct": true
+      },
+      {
+        "text": "Карась",
+        "correct": false
+      },
+      {
+        "text": "Андрій",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "name": 1,
+    "question": "Лірична вечірня пісня, яка виконувалась на вулиці та мала присвячення коханій людині має назву ...",
+    "correct": "серенада"
+  },
+  {
+    "type": "text",
+    "name": 1,
+    "question": "Найвища форма поліфонії має назву ...",
+    "correct": "ФУГА"
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Прослухайте музичний твір і виберіть правильний варіант:?<br><audio controls><source src='img/music/Щедрик Леонтович.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><br/>",
+    "answers": [
+      {
+        "text": "С. Гулак-Артемовський. Опера “Запорожець за Дунаєм” І дія. Романс Оксани “Місяцю ясний”",
+        "correct": false
+      },
+      {
+        "text": "М. Леонтович “Щедрик”",
+        "correct": true
+      },
+      {
+        "text": "Л. Дичко. Кантата”Чотири пори року”. I частина “Веснянка”",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Прослухайте музичний твір і виберіть правильний варіант:?<br><audio controls><source src='img/music/Бах органна токата і фуга ре мінор.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><br/>",
+    "answers": [
+      {
+        "text": "Й.С. Бах. Орґанна токата і фуга ре мінор",
+        "correct": true
+      },
+      {
+        "text": "Й. Гайдн. Симфонія № 103 Мі Ь мажор “З тремоло літавр” тема вступу",
+        "correct": false
+      },
+      {
+        "text": "Л. Бетховен. Соната № 14 до # мінор “Місячна”. І частина",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Прослухайте музичний твір і виберіть правильний варіант:?<br><audio controls><source src='img/music/М.Лисенко Тарас бульба увертюра.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><br/>",
+    "answers": [
+      {
+        "text": "М. Лисенко. Опера “Тарас Бульба”. IІІ дія. Хор “Засвіт встали козаченьки”",
+        "correct": false
+      },
+      {
+        "text": "Б. Лятошинський. Симфонія №3. I частина, тема головної партії",
+        "correct": false
+      },
+      {
+        "text": "М. Лисенко. Опера “Тарас Бульба”. Увертюра, тема головної партії",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Прослухайте музичний твір і виберіть правильний варіант:?<br><audio controls><source src='img/music/Моцарт симфонія40 соль мінор 1 частина.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><br/>",
+    "answers": [
+      {
+        "text": "В. А. Моцарт. Симфонія № 40 соль мінор. І частина, тема головної партії",
+        "correct": true
+      },
+      {
+        "text": "Е. Гріг. Симфонічна сюїта з музики до драми Г. Ібсена “Пер Ґюнт”. “Ранок”",
+        "correct": false
+      },
+      {
+        "text": "Л. Бетховен. Соната № 14 до # мінор “Місячна”. І частина",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Прослухайте музичний твір і виберіть правильний варіант:?<br><audio controls><source src='img/music/Бетховен соната14 до дієз мінор Місячна 1ч.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><br/>",
+    "answers": [
+      {
+        "text": "Ф. Шопен. Цикл “24 прелюдії”. Прелюдія №4 мі мінор",
+        "correct": false
+      },
+      {
+        "text": "Л. Бетховен. Соната № 14 до # мінор “Місячна”. І частина",
+        "correct": true
+      },
+      {
+        "text": "М. Равель. “Болеро” для симфонічного оркестру”. І частина",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Прослухайте музичний твір і виберіть правильний варіант:?<br><audio controls><source src='img/music/Котляревський(в р.Лисенка) опера Наталка полтавка.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><br/>",
+    "answers": [
+      {
+        "text": "С. Гулак-Артемовський. Опера “Запорожець за Дунаєм” І дія. Романс Оксани “Місяцю ясний”",
+        "correct": false
+      },
+      {
+        "text": "І. Котляревський (в редакції М. Лисенка). Опера”Наталка Полтавка”. ІІІ дія, пісня Наталки “Ой, я дівчина полтавка”",
+        "correct": true
+      },
+      {
+        "text": "Л. Дичко. Кантата”Чотири пори року”. I частина “Веснянка”",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Прослухайте музичний твір і виберіть правильний варіант:?<br><audio controls><source src='img/music/Шуберт Аве Марія.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio><br/>",
+    "answers": [
+      {
+        "text": "Ф. Шопен. Цикл “24 прелюдії”. Прелюдія №4 мі мінор",
+        "correct": false
+      },
+      {
+        "text": "Н. Паганіні. Каприс № 24 для скрипки соло",
+        "correct": false
+      },
+      {
+        "text": "Ф. Шуберт, вірші В.Скотта. Пісня Ave Maria",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "type": "radio",
+    "name": 1,
+    "question": "Симфонія жанр інструментальної оркестрової музики, який найчастіше складається з ... частин.",
+    "answers": [
+      {
+        "text": "1",
+        "correct": false
+      },
+      {
+        "text": "2",
+        "correct": false
+      },
+      {
+        "text": "3",
+        "correct": false
+      },
+      {
+        "text": "4",
+        "correct": true
+      }
+    ]
+  }
+]
