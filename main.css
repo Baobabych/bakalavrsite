@@ -1,0 +1,407 @@
+.headBack 
+{
+    width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../img/notes.jpg");
+    background-size: cover;
+    border-radius: 0% 0% 35% 35%;
+    background-position: 50% 50%;
+}
+.headBack div
+{
+    display: inline-block;
+    width: 100%;
+}
+.headBack h1
+{
+    display: block;
+    font-size: 96px;
+    color: black;
+    font-family: Carattere;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 138px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.headBack p
+{
+    color: white;
+    font-size: 36px;
+    font-family: "Alegreya SC";
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.headBack button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-size: 20px;
+    font-family: "Alegreya SC";
+    font-weight: 540;
+    padding: 15px 115px;
+    border-radius: 50px;
+    box-shadow: 7px 10px 9px 0px rgba(102, 102, 102, 1);
+    cursor: pointer;
+}
+.mainText
+{
+    margin-top: 150px;
+    width: 61vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Alegreya SC";
+    line-height: 32px;
+}
+
+main a{
+    color:blue;
+}
+
+.mainText h2
+{
+    font-size: 60px;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+.mainText blockquote
+{
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: right;
+    width: 600px;
+    margin-left: auto;
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.sep
+{
+    background-color: black;
+    width: 100vw;
+    height: 75px;
+    margin-top: 30px;
+}
+.steps h2 
+{
+    font-size: 36px;
+    font-family: "Alegreya SC";
+    font-weight: 700;
+    text-align: center;
+}
+.stepsCon
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    width: 59vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.i1, .i2, .i3, .i4
+{
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.i1
+{
+    background-image: url("../img/step1.jpg");
+}
+.i2
+{
+    background-image: url("../img/step2.jpg");
+}
+.i3
+{
+    background-image: url("../img/step3.jpg");
+}
+.i4
+{
+
+    background-image: url("../img/step4.jpg");
+}
+.t h4
+{
+    font-size: 24px;
+    text-decoration: underline;
+    font-family: "Alegreya SC";
+    font-weight: 700;
+    margin: 0;
+}
+.t p
+{
+    font-family: "Alegreya SC";
+    font-size: 18px;
+    margin-left: 30px;
+    font-style: italic;
+    line-height: 32px;
+    width: 90%;
+}
+.bonus
+{
+    background-color: #e5e5e5;
+    padding-bottom: 40px;
+}
+.present
+{
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: wobble 2s ease infinite;
+    cursor: pointer;
+}
+@keyframes wobble
+{
+    0% 
+    {
+        transform: translate3d(0, 0, 0);
+    }
+    15% 
+    {
+        transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg)
+    }
+    30% 
+    {
+        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg)
+    }
+    45% 
+    {
+        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg)
+    }
+    60% 
+    {
+        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg)
+    }
+    75% 
+    {
+        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)
+    }
+    100% 
+    {
+        transform: translate3d(0, 0, 0);
+    }
+}
+.present img
+{
+    width: 150px;
+    height: 150px;
+}
+.arrow
+{
+    display: block;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.bonus p
+{
+    text-decoration: underline;
+    font-family: "Alegreya SC";
+    font-size: 96px;
+    font-weight: 700;
+    text-align: center;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.note 
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 5;
+    display: none;
+    pointer-events: none;
+}
+.note:target 
+{
+    display: block;
+    pointer-events: auto;
+}
+.noteMain 
+{
+    width: 27vw;
+    height: 800px;
+    position: relative;
+    margin: 5vw auto;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: rgba(229, 229, 229, 0.85) -1px -2px 8px 15px;
+    padding: 30px;
+}
+.closeNote img
+{
+    width: 20px;
+}
+.closeNote
+{
+    border-width: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-right: 0;
+}
+.noteCon
+{
+    border: 1px solid black;
+    text-align: center;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-bottom: 50px;
+}
+.noteCon img
+{
+    width: 80px;
+    height: 80px;
+}
+.noteCon h6
+{
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+.noteCon button
+{
+    background-color: black;
+    box-shadow: rgb(128, 128, 128) 3px 9px 14px 2px;
+    border-radius: 50px;
+    padding: 10px 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    transition: all 0.5s;
+}
+.noteCon button:hover
+{
+    color: white;
+    background-color: rgb(153, 153, 153);
+    top: -5px
+}
+.noteCon h3
+{
+    font-family: "Alegreya SC";
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+.noteHead
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.noteHead h2
+{
+    font-family: "Alegreya SC";
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+}
+.noteImg
+{
+    filter: invert(1);
+    width: 55px !important;
+    height: 55px !important;
+    padding-top: 5px;
+}
+.chip
+{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%,rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    padding-bottom: 30px;
+}
+.chip h2 
+{
+    font-family: "Alegreya SC";
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.chips
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    width: 59vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ch
+{
+    background-color: rgb(242, 242, 242);
+    border-radius: 50px;
+    padding: 23px 30px;
+}
+.chips img
+{
+    width: 40px;
+    height: 40px;
+}
+.back
+{
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(128, 128, 128), rgb(217, 217, 217));
+    margin-left: auto;
+    margin-right: auto;
+}
+.chips h5
+{
+    font-weight: 700;
+    font-family: "Alegreya SC";
+    font-size: 24px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.chips p
+{
+    font-family: "Alegreya SC";
+    font-size: 18px;
+    text-align: center;
+}

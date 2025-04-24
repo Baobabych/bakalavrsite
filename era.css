@@ -1,0 +1,125 @@
+.content
+{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.content img
+{
+    width: 40px;
+    height: 40px;
+    filter: invert(0);
+    cursor: pointer;
+    transition: filter 0.5s;
+}
+.content img:hover
+{
+    filter: invert(1);
+}
+.rot
+{
+    transform: rotate(180deg);
+}
+.back
+{
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 48vw;
+    height: 650px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+}
+.back1
+{
+    background-image: url("../img/barokko.jpg");
+}
+.back2
+{
+    background-image: url("../img/classicism.jfif");
+}
+.back3
+{
+    background-image: url("../img/romanticism.jpg");
+}
+.back4
+{
+    background-image: url("../img/modernism.jpg");
+}
+.text
+{
+    position: relative;
+    height: inherit;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%);
+    color: white;
+    z-index: 2;
+    padding-top: 50px;
+    text-align: center;
+}
+.text h2
+{
+    font-family: "Alegreya SC";
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text p
+{
+    font-family: "Alegreya SC";
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0;
+}
+.text button
+{
+    font-family: "Alegreya SC";
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 45px;
+    border-radius: 50px;
+    margin-top: 120px;
+    position: relative;
+    top: 0;
+    z-index: 3;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.text button:hover
+{
+    color: white;
+    background-color: rgb(153, 153, 153);
+    top:-5px
+}
+.outerRects
+{
+    display: flex;
+    align-items: flex-end;
+    height: 45%;
+}
+.rects
+{
+    width: 20%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 3px;
+}
+.rects div
+{
+    width: 80%;
+    height: 3px;
+    background-color: rgb(179, 179, 179);
+    margin-left: auto;
+    margin-right: auto;
+}
+.active
+{
+    background-color: white !important;
+}

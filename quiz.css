@@ -1,0 +1,62 @@
+body 
+{
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+h1{
+  text-align: center; /* Вирівнюємо текст по центру */
+  font-family: 'Pattaya', sans-serif; /* Задаємо шрифт "Pattaya" */
+  font-size: 32px; /* Збільшуємо розмір шрифту */
+  border-bottom: 2px dotted black; /* Додаємо підкреслення у вигляді крапочок */
+}
+#quiz 
+{
+  margin: auto;
+  width: 60vw; /* Збільшуємо ширину рамки вікторини */
+  padding: 50px; /* Збільшуємо внутрішній відступ рамки вікторини */
+  background-color: #f8f8f8;
+  border: 1px solid black;
+}
+.quizContent {
+  margin: auto;
+  width: 60vw; /* Збільшуємо ширину рамки вікторини */
+  padding: 50px; /* Збільшуємо внутрішній відступ рамки вікторини */
+  background-color: #f8f8f8;
+  border: 1px solid black;
+}
+.question 
+{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.answers 
+{
+  margin-bottom: 20px;
+}
+#submit 
+{
+  display: block; /* Робимо кнопку блочним елементом */
+  margin: 20px auto; /* Відцентровуємо кнопку */
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+#submit:hover 
+{
+  background-color: #444;
+  cursor: pointer;
+}
+#res
+{
+  font-family: "Alegreya SC";
+  font-size: 28px;
+  font-weight: 500;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
